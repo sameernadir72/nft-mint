@@ -18,12 +18,17 @@ const Hero = () => {
                 Discover, Collect and Sell NFTs
               </h1>
               <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
-               Discover the most outstanding Nfts in all Topic of life Creative your Nfts and sell them
+               Our goal is to empower individuals to find infinite potential and universal love in web3.
+               <br />
+               <br />
+               Lets connect with our higher selves through meaningful art projects and professional development guided by thought leaders in Web 3 and the arts.
+
               </p>
               <div class="flex justify-center md:justify-start">
                 <Herobtn/>
-                <Count/>
+                
               </div>
+              <Count/>
             </div>
             {/* <!-- Image --> */}
             <div class="md:w-1/2">

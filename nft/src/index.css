@@ -5,4 +5,14 @@
 body {
   margin: 0;
 }
-
+input.form-control{
+  border: 1px solid;
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+  border-right: none;
+  border-left: none;
+}
+.input-group {
+  display: flex;
+}
