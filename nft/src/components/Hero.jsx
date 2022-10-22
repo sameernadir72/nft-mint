@@ -1,5 +1,5 @@
 import  Herobtn  from "./Herobtn";
-import  image  from "../assets/coverimage.png";
+import  image  from "../assets/Hero_img.jpeg";
 import  Count  from "./Count";
 const Hero = () => {
  
@@ -13,25 +13,22 @@ const Hero = () => {
             {/* <!-- Left item --> */}
             <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
               <h1
-                class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+                class="max-w-md text-4xl font-bold text-center md:text-4xl md:text-left"
               >
-                Discover, Collect and Sell NFTs
+                VIRES IN NUMERIS
               </h1>
-              <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
-               Our goal is to empower individuals to find infinite potential and universal love in web3.
-               <br />
-               <br />
-               Lets connect with our higher selves through meaningful art projects and professional development guided by thought leaders in Web 3 and the arts.
-
+              <p class="max-w-sm text-center md:text-left font-semibold" >
+              Let's empower individuals to find their potential  in web3, connecting with our higher selves in the space through professional development guided by thought leaders in Web 3 and the arts.
               </p>
               <div class="flex justify-center md:justify-start">
-                <Herobtn/>
-                
-              </div>
               <Count/>
+              </div>
+              <div>
+                <Herobtn/>
+              </div>
             </div>
             {/* <!-- Image --> */}
-            <div class="md:w-1/2">
+            <div class="md:w-1/2 lg:ml-28">
               <img src={image} alt="img" />
             </div>
           </div>
